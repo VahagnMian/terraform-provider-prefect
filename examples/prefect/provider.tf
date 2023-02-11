@@ -1,8 +1,10 @@
 terraform {
   required_providers {
-    hashicups = {
+    prefect = {
       version = "0.2"
       source  = "miandevops/edu/prefect"
     }
   }
 }
+
+provider "prefect" {}

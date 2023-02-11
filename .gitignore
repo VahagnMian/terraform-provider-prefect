@@ -5,11 +5,24 @@
 *.so
 *.dylib
 
+.idea/*
+
+reset.sh
+
 # Test binary, built with `go test -c`
 *.test
 
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+local-scripts/**
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
