@@ -7,4 +7,7 @@ terraform {
   }
 }
 
-provider "prefect" {}
+provider "prefect" {
+  //url = "localhost:4300"
+  url = "https://prefect.dev.ben-energy.com"
+}
