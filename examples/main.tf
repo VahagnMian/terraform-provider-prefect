@@ -1,18 +1,11 @@
-terraform {
-  required_providers {
-    prefect = {
-      version = "0.2.0"
-      source  = "miandevops/edu/prefect"
-    }
-  }
-}
+data "prefect_work_queues" "work_queues" {}
 
-provider "prefect" {}
-
-module "prefect" {
-  source = "./prefect"
+resource "prefect_work_queue" "wq" {
+    name        = "work_queue1"
+    description = "description1"
+    concurrency_limit = 50
 }
 
 output "work_queues" {
-  value = module.prefect.work_queues
+    value = data.prefect_work_queues.work_queues
 }

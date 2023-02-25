@@ -9,6 +9,6 @@ terraform {
 }
 
 provider "prefect" {
-  url = "http[s]://<url>"
-  #url = "http://localhost:4200"
+  #url = "http[s]://<url>"
+  url = "http://localhost:4200"
 }
