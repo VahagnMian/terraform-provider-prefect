@@ -49,3 +49,10 @@ output "work_queues" {
 The prefect_work_queues data source allows you to retrieve all of the work queues that exist on your Prefect instance. In this example, we retrieve all work queues and output them.
 
 Hope you find this provider helpful!
+
+Note: Prefect-client-go was in my different repository, but development of this client will be continued in this repository
+
+Old repository
+```
+https://github.com/VahagnMian/prefect-client-go
+```
