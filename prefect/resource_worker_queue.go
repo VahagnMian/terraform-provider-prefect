@@ -4,7 +4,7 @@ import (
 	"context"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	ph "github.com/vahagnmian/prefect-client-go"
+	ph "terraform-provider-prefect/prefect-client-go"
 	"time"
 )
 
