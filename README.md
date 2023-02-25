@@ -1,5 +1,7 @@
 # Terraform Provider for Prefect
 
+[My Terraform Registry](https://registry.terraform.io/providers/VahagnMian/prefect/latest)
+
 ## About 
 Prefect is a data orchestration and observation tool that helps you manage and monitor your data workflows.
 
