@@ -2,8 +2,8 @@
 terraform {
   required_providers {
     prefect = {
-      version = "0.2"
-      source  = "miandevops/edu/prefect"
+      source = "VahagnMian/prefect"
+      version = "1.0.0"
     }
   }
 }
